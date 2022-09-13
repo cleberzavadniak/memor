@@ -68,7 +68,7 @@ Add an item:
 
 List all items:
 
-    memor
+    memor /
 
 Search by tags (AND):
 
