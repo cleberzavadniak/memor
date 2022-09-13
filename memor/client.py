@@ -83,6 +83,9 @@ def sync():
 
     with SUBSCRIPTIONS_DATA_FILE.open("wb") as f:
         for slug in subscriptions:
+            if not slug:
+                continue
+
             response = requests.get(f"{MEMOR_URL}/collections/{slug}")
             try:
                 response.raise_for_status()
