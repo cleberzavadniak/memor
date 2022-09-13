@@ -6,6 +6,20 @@ URLs, names or document numbers, while allowing you
 to share your collection with others or sync between
 computers.
 
+```bash
+# Add a new items:
+$ memor + "memor" apps posix cli
+$ memor + "+55 41 0800-0800" phone-number example-service
+
+# See all items:
+$ memor /
+1 %%% memor %%% app posix cli
+2 %%% +55 41 0800-0800 %%% phone-number example-service
+
+# Search by tag:
+$ memor / posix
+1 %%% memor %%% app posix cli
+```
 
 ## How it works
 
