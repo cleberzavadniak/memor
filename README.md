@@ -38,7 +38,7 @@ This `memor-client` generates 64-long random strings as
 IDs for "private" collections. If you think about it,
 it's harder to guess than most passwords used out there
 (the chance of guessing right is one in a number with
-110 digits).
+91 digits).
 
 
 ## Requirements

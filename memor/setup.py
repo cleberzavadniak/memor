@@ -1,7 +1,7 @@
 from getpass import getpass
 from random import choice
 from subprocess import run
-from string import ascii_letters
+from string import ascii_lowercase
 from sys import exit, stderr
 
 import requests
@@ -16,7 +16,7 @@ from .base_settings import (
 
 
 def random_string():
-    return ''.join(choice(ascii_letters) for _ in range(0, 64))
+    return ''.join(choice(ascii_lowercase) for _ in range(0, 64))
 
 
 def do_setup():
